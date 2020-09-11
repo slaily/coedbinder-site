@@ -84,7 +84,7 @@ Windows equivalent:
 tasklist | find "python"
 ```
 
-![Pipeline diagram of UNIX ps and aux command](/assets/images/generators-in-practice/pipeline_diagram_unix_ps_aux_command.png)
+![Pipeline diagram of UNIX ps and aux command]({{site.baseurl}}/assets/images/generators-in-practice/pipeline_diagram_unix_ps_aux_command.png)
 
 - The first process is _ps aux_.
 - The second process is _grep python_, it consumes the output of the prior process.
@@ -108,7 +108,7 @@ Tasks:
 - Split the logic into a small processes to form a pipeline.
 - Implement
 
-![Pipeline diagram of UNIX ps and aux command](/assets/images/generators-in-practice/pipeline_diagram_unix_wc_command.png)
+![Pipeline diagram of UNIX ps and aux command]({{site.baseurl}}/assets/images/generators-in-practice/pipeline_diagram_unix_wc_command.png)
 
 
 ```python
@@ -290,14 +290,14 @@ print('{0:.2f}'.format(timeit.timeit(code, number=3)))
 Memory usage: Implementation with Generators
 
 ---
-![Memory usage of Generators method](/assets/gifs/generators-in-practice/wc_command_generator_memory_usage.gif "segment")
+![Memory usage of Generators method]({{site.baseurl}}/assets/gifs/generators-in-practice/wc_command_generator_memory_usage.gif "segment")
 
 ---
 
 Memory usage: Implementation with _list.append(...)_ method
 
 ---
-![Memory usage of append method](/assets/gifs/generators-in-practice/wc_command_append_memory_usage.gif "segment")
+![Memory usage of append method]({{site.baseurl}}/assets/gifs/generators-in-practice/wc_command_append_memory_usage.gif "segment")
 
 ---
 **CAUTION**
